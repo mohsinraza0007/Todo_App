@@ -23,6 +23,7 @@ function App() {
 
   return (
     <>
+    <h1>Hello</h1>
       <Form onSubmit={submitHandler} />
       <List tasks={mainTask} onDelete={deleteHandler} />
     </>
